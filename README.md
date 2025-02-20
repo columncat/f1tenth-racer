@@ -13,7 +13,7 @@ This code gets single path (or 'lane' in this code) and follows it by stanley co
 Result parameters are collected and will be printed when each lap is finished.
 
 # 2. Hybrid Obstacle Node
-This code gets multiple pathes to avoid obstacles. It will search for obstacles and find lanes that are free from obstacles.
+This code gets multiple pathes to avoid obstacles. It will search for obstacles and follow lanes that are free from obstacles.
 
 
 ### New feature 1
