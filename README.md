@@ -42,7 +42,7 @@ In this case, you can use driving messeage queue to assure your vehicle to conti
 
 
 ### New feature 2
-Our code calculates inner product between unit vector of ego vehicle's global yaw and unit vector of direction from ego vehicle to obstacle.
+This code calculates inner product between unit vector of ego vehicle's global yaw and unit vector of direction from ego vehicle to obstacle.
 Only obstacles with inner product value over 0.9(in this code or preferred cosine value for desired angles) will be detected as obstacles.
 
 
