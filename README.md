@@ -2,7 +2,7 @@
 Code for f1tenth racing in ready-noticed path.
 Participated in 2025 PNU-HYUNSONG F1Tenth Championship and won 1st prize. (team 적토마 from Pusan National University)
 
-[http://img.youtube.com/vi/pjeWsDWoA-A/maxresdefault.jpg](https://www.youtube.com/watch?v=pjeWsDWoA-A)
+[![image](http://img.youtube.com/vi/pjeWsDWoA-A/maxresdefault.jpg)](https://www.youtube.com/watch?v=pjeWsDWoA-A)
 
 ### This project is based on the open-source project f1tenth-racing-stack-ICRA22, originally developed by zzjun725 for f1tenth racer and licensed under the MIT License. Modifications have been made to enhance functionality and performance.
 https://github.com/zzjun725/f1tenth-racing-stack-ICRA22
