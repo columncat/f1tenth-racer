@@ -13,13 +13,14 @@ This code gets single path (or 'lane' in this code) and follows it by stanley co
 Result parameters are collected and will be printed when each lap is finished.
 
 # 2. Hybrid Obstacle Node
+This code gets multiple pathes to avoid obstacles. It will search for obstacles and find lanes that are free from obstacles.
+
+
 ### New feature 1
-This code gets multiple pathes to avoid obstacles.
-Originally from zzjun725's code, it will search for obstacles and find lanes that are free from obstacles.
 Once it determines which lane to follow, it will select appropriate controller for each situations that are pre-defined in the code.
 Driving parameters for every lane is calculated each time and controller will be selected between 'Pure Pursuit', 'Stanley', 'LQR'.
 
-For example, assume that three pathes 'optimal'(main lane), 'in_course', 'out_course' is being used.
+For example, assume that three pathes 'optimal'(main lane), 'in_course', 'out_course' are being used.
 For every path, the code checks whether each lane is free of obstacle (is_free) and whether ego vehicle is on the lane (is_on_lane).
 Then we can set controller selection algorithm arbitrarily like the example below.
 
@@ -41,8 +42,6 @@ In this case, you can use driving messeage queue to assure your vehicle to conti
 
 
 ### New feature 2
-Obstacles are now filtered by where they are.
-Originally, all LiDAR points inbetween inner bound and outer bound were detected as obstacles.
 Our code calculates inner product between unit vector of ego vehicle's global yaw and unit vector of direction from ego vehicle to obstacle.
 Only obstacles with inner product value over 0.9(in this code or preferred cosine value for desired angles) will be detected as obstacles.
 
