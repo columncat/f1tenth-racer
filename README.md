@@ -1,6 +1,7 @@
 # f1tenth-racer
 Code for f1tenth racing in ready-noticed path.
-Participated in 2025 PNU-HYUNSONG F1Tenth Championship and won 1st prize. (team 적토마 from Pusan National University)
+Participated in 2025 PNU-HYUNSONG F1Tenth Championship and won 1st prize. (team 적토마 from Pusan National University)\
+이 레포지터리는 부산대학교에서 개최된 2025 PNU-현송 f1tenth 챔피언십에 출전한 부산대 적토마 팀의 코드입니다.
 
 [![image](http://img.youtube.com/vi/pjeWsDWoA-A/maxresdefault.jpg)](https://www.youtube.com/watch?v=pjeWsDWoA-A)
 
